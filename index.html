@@ -39,54 +39,75 @@
           <div>
             <h1 class="current-city" id="current-city">Paris</h1>
             <p class="current-details">
-              <span id="current-date"></span>, moderate rain <br />
-              Humidity: <strong>87%</strong>, Wind: <strong>7.2km/h</strong>
+              <span id="current-date"></span>
+              <span id="time"></span>
+              <span id="description"></span>
+               <br />
+              Humidity:<strong id="humidity">87%</strong>, Wind:
+              <strong id="wind-speed">7.2km/h</strong>
             </p>
           </div>
           <div class="current-temperature">
-            <span class="current-temperature-icon">☀️</span
+            <span class="current-temperature-icon" id="icon">☀️</span
             ><span class="current-temperature-value" id="current-temperature"
               >24</span
             ><span class="current-temperature-unit">°C</span>
           </div>
         </div>
       </main>
-      <section class="container-day">
-        <ul class="day">
-          <li class="monday">
-            <p>
-              Mon<br />
-              <span class="current-ikon-day">☀️</span><br />
-              <strong class="temperature-day-max">17°</strong>
-              <strong class="temperature-day-min">14°</strong>
-            </p>
-          </li>
-          <li class="tuesday">
-            <p>
-              Tues<br />
-              <span class="current-ikon-day">⛅</span><br />
-              <strong class="temperature-day-max">15°</strong>
-              <strong class="temperature-day-min">13°</strong>
-            </p>
-          </li>
-  
-          <li class="thursday">
-            <p>
-              Wedn <br />
-              <span class="current-ikon-day">🌧</span><br />
-              <strong class="temperature-day-max">12°</strong>
-              <strong class="temperature-day-min">10°</strong>
-            </p>
-          </li>
-          <li class="thursday">
-            <p>
-              Thur<br >
-              <span class="current-ikon-day">⛅</span><br >
-              <strong class="temperature-day-max">15°</strong>
-              <strong class="temperature-day-min">13°</strong>
-            </p>
-          </li>
-        </ul>
+      <section class="container-day" id="forecast">
+        <div class="weather-forecast">
+            <div class="weather-forecast-day">
+              <div class="weather-forecast-date">Tue</div>
+              <div class="weather-forecast-icon">🌤️</div>
+              <div class="weather-forecast-temperatures">
+                <div class="weather-forecast-temperature">
+                  <strong>15ºC</strong>
+                </div>
+                <div class="weather-forecast-temperature">9ºC</div>
+              </div>
+            </div>
+            <div class="weather-forecast-day">
+              <div class="weather-forecast-date">Wed</div>
+              <div class="weather-forecast-icon">🌤️</div>
+              <div class="weather-forecast-temperatures">
+                <div class="weather-forecast-temperature">
+                  <strong>15ºC</strong>
+                </div>
+                <div class="weather-forecast-temperature">9ºC</div>
+              </div>
+            </div>
+            <div class="weather-forecast-day">
+              <div class="weather-forecast-date">Thu</div>
+              <div class="weather-forecast-icon">🌤️</div>
+              <div class="weather-forecast-temperatures">
+                <div class="weather-forecast-temperature">
+                  <strong>15ºC</strong>
+                </div>
+                <div class="weather-forecast-temperature">9ºC</div>
+              </div>
+            </div>
+            <div class="weather-forecast-day">
+              <div class="weather-forecast-date">Fry</div>
+              <div class="weather-forecast-icon">🌤️</div>
+              <div class="weather-forecast-temperatures">
+                <div class="weather-forecast-temperature">
+                  <strong>15ºC</strong>
+                </div>
+                <div class="weather-forecast-temperature">9ºC</div>
+              </div>
+            </div>
+            <div class="weather-forecast-day">
+              <div class="weather-forecast-date">Sat</div>
+              <div class="weather-forecast-icon">🌤️</div>
+              <div class="weather-forecast-temperatures">
+                <div class="weather-forecast-temperature">
+                  <strong>15ºC</strong>
+                </div>
+                <div class="weather-forecast-temperature">9ºC</div>
+              </div>
+            </div>
+          </div>
       </section>
       <footer>
         <p>
